@@ -193,34 +193,6 @@ export const skilllevels=[
 
 
 ];
-export const beskills=[
-  
-   {
-    "icon":<FaDatabase/>,
-    "title":"Database Design and Management",
-    "description":"Designing effective databases for data storage and retrieval. Postgres, redis, firebase, elastc search , mongo db"
-
-     },
-     {
-       "icon":<BiData/>,
-       "title":"Restful Api Development and Integration",
-       "description":"Fetching data from apis and existing databases for website"
-  
-     },
-     {
-       "icon":<FaAppStore/>,
-       "title":"Microservices Development",
-       "description":"Develop custom apis for applications to work with data efficiently"
-  
-     },
-     {
-       "icon":<BiCloud/>,
-       "title":"Cloud and DevOps",
-       "description":"CI/CD, Containerization. AWS EC2, AWS S3,AWS Amplify, Azure Devops "
-  
-     },
-
-];
 
 export const beskilllevels=[
   {
