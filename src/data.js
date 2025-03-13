@@ -110,34 +110,30 @@ export const aiskilllevels = [
   }
 ];
 
-export const skills=[
-  
-       {
-         "icon":<FaPen/>,
-         "title":"UI/UX Design",
-         "description":"Designing great looking, user-friendly and highly interactive interfaces using figma"
-    
-          },
-          {
-            "icon":<FaCode/>,
-            "title":"Web Development",
-            "description":"Transforming a good looking website design into good-looking pixel perfect website"
-       
-          },
-          {
-            "icon":<FaCss3/>,
-            "title":"Styling and Animation",
-            "description":"Make websites look great by adding styles and animations with css,intersection observer api and tailwindcss"
-       
-          },
-          {
-            "icon":<BiTestTube/>,
-            "title":"UI testing",
-            "description":"Testing my website interfaces to ensure its usability and interactivity working as expected"
-       
-          },
-
+export const beskills = [
+  {
+    icon: <FaDatabase />,
+    title: "Database Design & Management",
+    description: "Crafting efficient, scalable databases for seamless data storage and retrieval. Experienced with PostgreSQL, Redis, Firebase, Elasticsearch, and MongoDB.",
+  },
+  {
+    icon: <BiData />,
+    title: "RESTful API Development & Integration",
+    description: "Building and integrating RESTful APIs to connect applications with data sources, ensuring robust and reliable data flow.",
+  },
+  {
+    icon: <FaAppStore />,
+    title: "Microservices Architecture",
+    description: "Designing and implementing microservices to enhance application scalability and data efficiency.",
+  },
+  {
+    icon: <BiCloud />,
+    title: "Cloud Computing & DevOps",
+    description: "Leveraging CI/CD pipelines, containerization, and cloud platforms including AWS (EC2, S3, Amplify) and Azure DevOps for streamlined deployments.",
+  },
 ];
+
+
 export const skilllevels=[
   
   {
@@ -150,6 +146,12 @@ export const skilllevels=[
       
        "title":"CSS",
        "level":"90%"
+  
+     },
+     {
+      
+       "title":"TAILWIND CSS",
+       "level":"75%"
   
      },
      {
@@ -170,18 +172,25 @@ export const skilllevels=[
       "level":"80%"
  
     },
+     {
+       
+      "title":"NEXT",
+      "level":"70%"
+ 
+    },
+   {
+       
+      "title":"ANGULAR",
+      "level":"50%"
+ 
+    },
     {
        
       "title":"VUE",
       "level":"40%"
  
-    },
-    {
-       
-      "title":"JEST",
-      "level":"80%"
- 
-    },
+    }
+
 
 ];
 export const beskills=[
@@ -189,25 +198,25 @@ export const beskills=[
    {
     "icon":<FaDatabase/>,
     "title":"Database Design and Management",
-    "description":"Designing effective databases for data storage and retrieval"
+    "description":"Designing effective databases for data storage and retrieval. Postgres, redis, firebase, elastc search , mongo db"
 
      },
      {
        "icon":<BiData/>,
-       "title":"Data fetching",
+       "title":"Restful Api Development and Integration",
        "description":"Fetching data from apis and existing databases for website"
   
      },
      {
        "icon":<FaAppStore/>,
-       "title":"RESTful api development",
+       "title":"Microservices Development",
        "description":"Develop custom apis for applications to work with data efficiently"
   
      },
      {
        "icon":<BiCloud/>,
        "title":"Cloud and DevOps",
-       "description":"Containerize apps, deploy to the cloud and use agile technologies to speed up development"
+       "description":"CI/CD, Containerization. AWS EC2, AWS S3,AWS Amplify, Azure Devops "
   
      },
 
@@ -217,20 +226,20 @@ export const beskilllevels=[
   {
    
     "title":".NET",
-    "level":"60%"
+    "level":"90%"
 
      },
      {
    
       "title":"C#",
-      "level":"70%"
+      "level":"80%"
   
        },
   
   {
    
     "title":"Postgresql",
-    "level":"100%"
+    "level":"90%"
 
      },
      {
@@ -242,7 +251,7 @@ export const beskilllevels=[
        {
    
         "title":"Elastic Search",
-        "level":"100%"
+        "level":"90%"
     
          },
      {
@@ -258,18 +267,19 @@ export const beskilllevels=[
        "level":"80%"
   
      },
-     {
+    {
        
-      "title":"RESTFUL APIS",
-      "level":"80%"
- 
-    },
+       "title":"NestJs",
+       "level":"70%"
+  
+     },
+    
     {
    
       "title":"KAFKA",
       "level":"60%"
   
-       },
+      },
     {
        
       "title":"DOCKER",
@@ -284,7 +294,7 @@ export const beskilllevels=[
     },
     {
        
-      "title":"PHP",
+      "title":"FastApi",
       "level":"70%"
  
     },
