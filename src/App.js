@@ -83,7 +83,7 @@ function App() {
                      <Route exact path="frontend"  element={<Frontend  />}></Route> 
                      <Route exact path="backend"  element={<Backend  />}></Route>
                      <Route exact path="ai"  element={<AISkills  />}></Route> 
-                     <Route index element={<AISkills />} />          
+                     <Route index element={<Frontend />} />          
                    
                     </Route>
                     <Route exact path="/projects" element={<Projects/>}>
