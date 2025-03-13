@@ -317,6 +317,12 @@ export const beskilllevels=[
       "level":"80%"
  
     },
+  {
+       
+      "title":"Azure DevOps",
+      "level":"80%"
+ 
+    }
 
 ];
 
