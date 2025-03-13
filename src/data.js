@@ -110,26 +110,26 @@ export const aiskilllevels = [
   }
 ];
 
-export const beskills = [
+export const skills = [
   {
-    icon: <FaDatabase />,
-    title: "Database Design & Management",
-    description: "Crafting efficient, scalable databases for seamless data storage and retrieval. Experienced with PostgreSQL, Redis, Firebase, Elasticsearch, and MongoDB.",
+    icon: <FaPen />,
+    title: "UI/UX Design",
+    description: "Creating visually appealing, user-friendly interfaces with Figma, prioritizing usability and interactivity.",
   },
   {
-    icon: <BiData />,
-    title: "RESTful API Development & Integration",
-    description: "Building and integrating RESTful APIs to connect applications with data sources, ensuring robust and reliable data flow.",
+    icon: <FaCode />,
+    title: "Web Development",
+    description: "Converting designs into pixel-perfect, responsive websites with clean, efficient code.",
   },
   {
-    icon: <FaAppStore />,
-    title: "Microservices Architecture",
-    description: "Designing and implementing microservices to enhance application scalability and data efficiency.",
+    icon: <FaCss3 />,
+    title: "Styling & Animation",
+    description: "Enhancing websites with modern CSS, Tailwind CSS, Intersection Observer API, and smooth animations.",
   },
   {
-    icon: <BiCloud />,
-    title: "Cloud Computing & DevOps",
-    description: "Leveraging CI/CD pipelines, containerization, and cloud platforms including AWS (EC2, S3, Amplify) and Azure DevOps for streamlined deployments.",
+    icon: <BiTestTube />,
+    title: "UI Testing",
+    description: "Ensuring interface usability and functionality through rigorous testing and validation.",
   },
 ];
 
@@ -192,6 +192,29 @@ export const skilllevels=[
     }
 
 
+];
+
+export const beskills = [
+  {
+    icon: <FaDatabase />,
+    title: "Database Design & Management",
+    description: "Crafting efficient, scalable databases for seamless data storage and retrieval. Experienced with PostgreSQL, Redis, Firebase, Elasticsearch, and MongoDB.",
+  },
+  {
+    icon: <BiData />,
+    title: "RESTful API Development & Integration",
+    description: "Building and integrating RESTful APIs to connect applications with data sources, ensuring robust and reliable data flow.",
+  },
+  {
+    icon: <FaAppStore />,
+    title: "Microservices Architecture",
+    description: "Designing and implementing microservices to enhance application scalability and data efficiency.",
+  },
+  {
+    icon: <BiCloud />,
+    title: "Cloud Computing & DevOps",
+    description: "Leveraging CI/CD pipelines, containerization, and cloud platforms including AWS (EC2, S3, Amplify) and Azure DevOps for streamlined deployments.",
+  },
 ];
 
 export const beskilllevels=[
