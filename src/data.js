@@ -327,7 +327,7 @@ export const projects=[
     "description":<p>A modern full stack company website built to showcase and sell the best in-demand talent and services</p>,
     "completed":false,
     "image":serendepify,
-    "tags": <><span>ASR/TTS</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
+    "tags": <><span>TypeScript</span><span>Next/Nest</span><span>ASR/TTS</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
   , "github":"https://github.com/teckedd-code2save/serendepify-frontend"
   },
   {
@@ -338,7 +338,7 @@ export const projects=[
     "completed":true,
     "image":treckTrafficUrl,
     "tags": <>
-      <span>Js </span><span>Python</span><span>Google maps api</span></>
+      <span>Express </span><span>Postgres</span><span>Sequelize</span><span>NodeJs</span><span>Google Directions Api</span></>
   , "github":"https://github.com/Edward-kwabena-Twumasi/google-directions-api"
   },
   {
@@ -359,27 +359,6 @@ export const projects=[
   , "github":"https://docs.google.com/document/d/10EjTnVJNmA7KDjaiYN8iRlLN6Ot2dhWk/edit#heading=h.gjdgxs"
   },
 
-  // {
-  //   "title":"Election Info System",
-  //   "description":"A platform for relieable election information",
-  //   "completed":false,
-  //   "image":electionHuburl
-  // , "github":"https://github.com/Edward-kwabena-Twumasi/Election-Information-Website"
-  // },
-  // {
-  //   "title":"Stock Taking Application",
-  //   "description":"A stock taking app built for a client",
-  //   "completed":false,
-  //   "image":stocktakingurl
-  // , "github":"https://github.com/Edward-kwabena-Twumasi/ruthjonatexcel"
-  // },
-  // {
-  //   "title":"E-Commerce website",
-  //   "description":"A platform for selling organic foods with payment integration",
-  //   "completed":true,
-  //   "image":ecommerceurl
-  // , "github":"https://github.com/Edward-kwabena-Twumasi/"
-  // },
   {
     "title":"Smart Farming with IoT and Deep Learning",
     "description":<p>Collaborated on building a mobile app
