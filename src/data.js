@@ -325,6 +325,14 @@ export const beskilllevels=[
 
 export const projects=[
   {
+    "title":<strong>Serendepify</strong>,
+    "description":<p>A modern full stack company website built to showcase and sell the best in-demand talent and services</p>,
+    "completed":false,
+    "image":robuShield,
+    "tags": <><span>ASR/TSP</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
+  , "github":"https://github.com/teckedd-code2save/serendepify-frontend"
+  },
+  {
     "title":<strong>DataArch</strong>,
     "description":<p>An automated traffic data archiving tool
        built on top of google's distance matrix and directions 
@@ -352,6 +360,7 @@ export const projects=[
     "tags": <><span>AI</span><span>Computer Vision</span><span>Machine Learning</span><span>Research</span></>
   , "github":"https://docs.google.com/document/d/10EjTnVJNmA7KDjaiYN8iRlLN6Ot2dhWk/edit#heading=h.gjdgxs"
   },
+
   // {
   //   "title":"Election Info System",
   //   "description":"A platform for relieable election information",
