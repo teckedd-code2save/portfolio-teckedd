@@ -329,7 +329,7 @@ export const projects=[
     "description":<p>A modern full stack company website built to showcase and sell the best in-demand talent and services</p>,
     "completed":false,
     "image":robuShield,
-    "tags": <><span>ASR/TSP</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
+    "tags": <><span>ASR/TTS</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
   , "github":"https://github.com/teckedd-code2save/serendepify-frontend"
   },
   {
