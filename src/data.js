@@ -10,11 +10,9 @@ import {FaAppStore} from "react-icons/fa"
 import electionHuburl from "./assets/electionhub.PNG";
 import treckTrafficUrl from "./assets/trecktraffic.PNG";
 import phishingurl from "./assets/phishing_detect.png";
-import cnnurl from "./assets/cnn_classify.jpeg";
-import rnnurl from "./assets/rnn_text.png";
-import ecommerceurl from "./assets/ecommerce.png";
+
 import travelmates from "./assets/travelmates.png";
-import stocktakingurl from "./assets/stock-tacking.png";
+import serendepify from "./assets/serendepify.png";
 import robuShield from "./assets/robushield.png";
 import smartfarmUrl from "./assets/smart-farming.png";
 import analyst from "./assets/data-analyst.png";
@@ -328,7 +326,7 @@ export const projects=[
     "title":<strong>Serendepify</strong>,
     "description":<p>A modern full stack company website built to showcase and sell the best in-demand talent and services</p>,
     "completed":false,
-    "image":robuShield,
+    "image":serendepify,
     "tags": <><span>ASR/TTS</span><span>Computer Vision</span><span>DevOps</span><span>Tech Company</span></>
   , "github":"https://github.com/teckedd-code2save/serendepify-frontend"
   },
